@@ -180,8 +180,8 @@ window.ROLES = [
         keyStats: ["9+ sites", "4-month content calendar"],
         skills: ["Canva design", "Content planning"],
         stat: { value: "9+", label: "sites across North America" },
+        framed: true,
         cover: "assets/projects/newmont/design-1.jpg",
-        coverPosition: "left center",
         goal: "Keep 9+ sites informed and connected with consistent, on-brand content.",
         sections: [
           {
@@ -226,7 +226,7 @@ window.ROLES = [
     org: "UBC Centre for Community Engaged Learning",
     role: "Social Impact Program Assistant",
     dates: "May 2023 – 2024",
-    extraRoles: [["Student Engagement Coordinator, Communications", "November 2023 – April 2024"]],
+    extraRoles: [["Student Engagement Coordinator, Communications", "Nov 2023 – Apr 2024"]],
     layout: "single",
     projects: [
       {

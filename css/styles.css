@@ -277,7 +277,8 @@ h2 { font-family: var(--f-display); font-size: var(--s-xl); line-height: 1.05; l
 .role-head { display: grid; gap: 2px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .role-org { font-family: var(--f-display); font-size: 1.7rem; line-height: 1.1; }
 .role-title { font-size: var(--s-sm); color: var(--ink-soft); }
-.role-dates { color: var(--ink-faint); margin-left: 6px; white-space: nowrap; }
+.role-dates { color: var(--ink-faint); white-space: nowrap; display: block; }
+@media (min-width: 640px) { .role-title { white-space: nowrap; } .role-dates { display: inline; margin-left: 6px; } }
 .volunteer { padding-block: 0 16px; }
 .vol-card { display: grid; gap: 24px; }
 .vol-card h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
@@ -290,7 +291,7 @@ h2 { font-family: var(--f-display); font-size: var(--s-xl); line-height: 1.05; l
 .vol-role { font-weight: 600; font-size: var(--s-sm); }
 .vol-meta { font-size: var(--s-xs); color: var(--ink-soft); }
 .role-pair { display: grid; gap: 56px 20px; }
-@media (min-width: 820px) { .role-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .role-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .role-pair .role { grid-template-rows: auto 1fr; }
 .single { display: grid; }
 
