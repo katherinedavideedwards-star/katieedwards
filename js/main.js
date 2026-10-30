@@ -130,7 +130,7 @@
     block.className = "role";
     block.innerHTML = `
       <div class="role-head">
-        <p class="role-org">${esc(role.org)}</p>
+        <p class="role-org">${esc(role.org)}${role.team ? ` <span class="role-team">${esc(role.team)}</span>` : ""}</p>
         <p class="role-title">${esc(role.role)}${role.dates ? ` <span class="role-dates">${esc(role.dates)}</span>` : ""}</p>
         ${(role.extraRoles || []).map(([r, d]) => `<p class="role-title">${esc(r)} <span class="role-dates">${esc(d)}</span></p>`).join("")}
         ${role.summary ? `<p class="role-summary">${esc(role.summary)}</p>` : ""}

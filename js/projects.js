@@ -19,6 +19,7 @@
 window.ROLES = [
   {
     org: "UBC Development & Alumni Engagement",
+    team: "Integrated Marketing & Communications Team",
     role: "Digital Content Creator",
     dates: "August – December 2025",
     summary: "Produced and optimised video content for UBC Development & Alumni Engagement, generating 1.9M+ impressions and 1.1M+ views. The videos drove 86K+ engagements and 25K+ clicks to key landing pages.",

@@ -276,6 +276,8 @@ h2 { font-family: var(--f-display); font-size: var(--s-xl); line-height: 1.05; l
 .role { display: grid; gap: 18px; min-width: 0; }
 .role-head { display: grid; gap: 2px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .role-org { font-family: var(--f-display); font-size: 1.7rem; line-height: 1.1; }
+.role-team { font-family: var(--f-body); font-size: var(--s-sm); font-weight: 500; color: var(--ink-soft); margin-left: 8px; white-space: nowrap; vertical-align: 0.3em; }
+@media (max-width: 639px) { .role-team { display: block; margin: 6px 0 0; vertical-align: 0; } }
 .role-title { font-size: var(--s-sm); color: var(--ink-soft); }
 .role-dates { color: var(--ink-faint); white-space: nowrap; display: block; }
 @media (min-width: 640px) { .role-title { white-space: nowrap; } .role-dates { display: inline; margin-left: 6px; } }
