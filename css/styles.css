@@ -512,3 +512,4 @@ h2 { font-family: var(--f-display); font-size: var(--s-xl); line-height: 1.05; l
 .tool-mono { display: inline-grid; place-items: center; border-radius: 4px; background: var(--ink); color: var(--card); font-size: 0.55rem; font-weight: 700; letter-spacing: 0; }
 .vol-impact { font-size: var(--s-sm); color: var(--ink-soft); line-height: 1.6; }
 .vol-impact strong, .story-body strong { color: var(--ink); font-weight: 700; }
+.tools-sec { display: grid; padding-block: 0 16px; }
