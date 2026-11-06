@@ -201,6 +201,19 @@ window.ROLES = [
               "Planned B2B communications alongside it through Viva Engage, email and LinkedIn",
               "Tracked engagement in Meta Business Suite and Poppulo to choose the best posting times"
             ]
+          },
+          {
+            h: "Community & stakeholder engagement",
+            list: [
+              "Coordinated community investment donations of up to $50,000",
+              "Attended engagement meetings with Northern BC community leaders and Indigenous groups",
+              "Built campaigns for days of significance, including National Indigenous Peoples Day",
+              "Routed every piece through HR, legal and communications for sign-off"
+            ]
+          },
+          {
+            h: "What I learned",
+            p: "Responsible communication starts with listening. Working alongside community relations taught me how trust is built over time, and how the right message, shared respectfully, can strengthen relationships between an organization and the communities it works with."
           }
         ],
         numbers: [
